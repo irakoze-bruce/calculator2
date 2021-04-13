@@ -1,0 +1,75 @@
+/** @format */
+
+body {
+  text-align: center;
+  font-family: monospace;
+}
+html,
+* {
+  margin: 0;
+  padding: 0;
+}
+.box {
+  height: 55vh;
+  background-image: linear-gradient(
+      rgba(30, 30, 30, 0.35),
+      rgba(30, 30, 30, 0.35)
+    ),
+    url(./image/bg.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.title {
+  text-align: center;
+  color: white;
+  padding-top: 1rem;
+}
+
+.date {
+  color: white;
+  padding-top: 0.5rem;
+  text-align: center;
+}
+
+#result {
+  color: white;
+  font-size: 2rem;
+  width: 300px;
+  height: 50px;
+  background: transparent;
+  margin: 0 auto;
+  padding-top: 1rem;
+}
+input {
+  padding: 10px 50px;
+  margin: 5px 0;
+  background: transparent;
+  color: white;
+  font-style: bolder;
+  font-size: 1em;
+  text-align: center;
+}
+
+::placeholder {
+  font-size: 1em;
+  color: white;
+  background-color: transparent;
+}
+
+#operator {
+  margin-top: 1rem;
+  padding: 1px 1rem;
+  color: gray;
+  background: transparent;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
+#calculator {
+  margin-top: 1rem;
+  padding: 1px 1rem;
+  color: rgb(248, 246, 246);
+  background: transparent;
+  font-weight: bolder;
+  font-size: 1.3rem;
+}
